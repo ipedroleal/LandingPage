@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  background-image: url(../../images/LOGOlAKERS.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #ddd; }
+
+.contanier1 {
+  background-color: #1c092bd6;
+  width: 450px;
+  margin: auto;
+  color: #e9a539; }
+
+.topLogo {
+  width: 100px; }
+
+.paragraph {
+  margin: 8px 0px; }
+
+.btnSend {
+  color: #1c092bd6;
+  border: 1px solid #E9A539; }
+  .btnSend:hover {
+    background-color: #1c092bd6;
+    color: white; }
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+  color: #ddd; }
+
+/*# sourceMappingURL=style.css.map */
