@@ -35,6 +35,20 @@ body {
   color: #ddd; }
 
 /*--Media--jquerie--*/
+@media (max-width: 768px) {
+  .contanier1 {
+    width: 100%;
+    padding: 10px; }
+
+  .paragraph {
+    font-size: 16px; } }
+@media (max-width: 375px) {
+  .contanier1 {
+    width: 100%;
+    padding: 10px; }
+
+  .paragraph {
+    font-size: 16px; } }
 @media (max-width: 320px) {
   .contanier1 {
     width: 100%;
@@ -48,12 +62,5 @@ body {
   .paragraph {
     font-size: 14px;
     /* Reduza o tamanho da fonte para melhor legibilidade */ } }
-@media (max-width: 375px) {
-  .contanier1 {
-    width: 100%;
-    padding: 10px; }
-
-  .paragraph {
-    font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
