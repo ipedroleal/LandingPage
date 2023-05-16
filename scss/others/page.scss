@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
@@ -7,40 +7,69 @@ body {
     background-image: url(../images/LOGOlAKERS.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     color: #ddd;
-    
+   
+
 }
 
-.contanier1{
+.contanier1 {
     background-color: $background-color;
     width: 450px;
     margin: auto;
     color: #e9a539;
 }
 
-.topLogo{
+.topLogo {
     width: 100px;
 }
 
-.paragraph{
+.paragraph {
     margin: 8px 0px;
-    
+
 }
 
-.btnSend{
-    color: $background-color;
+.btnSend {
+    color:white;
     border: 1px solid $button-color ;
 
-    &:hover{
-        background-color: $background-color;
+    &:hover {
+        background-color: #E9A539;
         color: white;
     }
 }
 
-.footer{
+.footer {
     margin-top: 30px;
     margin-bottom: -30px;
     color: #ddd;
 }
 
+
+
+/*--Media--jquerie--*/
+
+@media (max-width: 320px) {
+    .contanier1 {
+      width: 100%;
+      padding: 10px; /* Adicione um espaçamento interno para evitar que o conteúdo fique muito próximo das bordas */
+    }
+  
+    .topLogo {
+      width: 80px; /* Reduza o tamanho do logotipo para ajustar à tela menor */
+    }
+  
+    .paragraph {
+      font-size: 14px; /* Reduza o tamanho da fonte para melhor legibilidade */
+    }
+  }
+
+@media (max-width: 375px){
+    .contanier1{
+        width: 100%;
+        padding: 10px;
+    }
+    .paragraph{
+        font-size: 16px;
+    }
+}  
